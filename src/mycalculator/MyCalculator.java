@@ -43,7 +43,7 @@ public class MyCalculator {
         
         default:
         System.out.println("you have not picked either +, - , *, / ");   
-        break;
+        return;
         
     }
 
