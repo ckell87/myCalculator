@@ -23,6 +23,32 @@ public class MyCalculator {
         System.out.println("no please pick either +, -, *, / ");
         char modifier = sc.next().charAt(0);
         double result;
+         switch(modifier) {
+        
+        case '+' :
+        result = firstNum + secondNum;
+        break;
+        
+        case '-':
+        result = firstNum - secondNum;
+        break;
+        
+        case '*':
+        result = firstNum * secondNum;
+        break;
+        
+        case '/':
+        result = firstNum / secondNum;
+        break;
+        
+        default:
+        System.out.println("you have not picked either +, - , *, / ");   
+        break;
+        
     }
-    
+
+        System.out.println(result);
 }
+}
+    
+
