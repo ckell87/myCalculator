@@ -20,6 +20,9 @@ public class MyCalculator {
         System.out.println("please pick two numbers ");
         double firstNum = sc.nextDouble();
         double secondNum = sc.nextDouble();
+        System.out.println("no please pick either +, -, *, / ");
+        char modifier = sc.next().charAt(0);
+        double result;
     }
     
 }
